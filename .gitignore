@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/iRecycleItUI/dist
+/iRecycleItUI/tmp
+/iRecycleItUI/out-tsc
+/iRecycleItUI/bazel-out
+
+# Node
+/iRecycleItUI/node_modules
+/iRecycleItUI/npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+/iRecycleItUI/.idea/
+/iRecycleItUI/.project
+/iRecycleItUI/.classpath
+/iRecycleItUI/.c9/
+/iRecycleItUI/*.launch
+/iRecycleItUI/.settings/
+/iRecycleItUI/*.sublime-workspace
+
+# Visual Studio Code
+/iRecycleItUI/.vscode/*
+/iRecycleItUI/!.vscode/settings.json
+/iRecycleItUI/!.vscode/tasks.json
+/iRecycleItUI/!.vscode/launch.json
+/iRecycleItUI/!.vscode/extensions.json
+/iRecycleItUI/.history/*
+
+# Miscellaneous
+/iRecycleItUI/.angular/cache
+/iRecycleItUI/.sass-cache/
+/iRecycleItUI/connect.lock
+/iRecycleItUI/coverage
+/iRecycleItUI/libpeerconnection.log
+/iRecycleItUI/iRecycleItUI/testem.log
+/iRecycleItUI/typings
+
+# System files
+/iRecycleItUI/.DS_Store
+/iRecycleItUI/Thumbs.db
+.DS_Store
+Thumbs.db
