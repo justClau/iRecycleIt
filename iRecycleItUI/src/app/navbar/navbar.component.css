@@ -3,7 +3,7 @@
   background: url(../../assets/images/logo-white.png);
   height: 50px;
   width: 200px;
-  left: 5rem;
+  left: 10rem;
   background-size: contain;
 }
 
@@ -11,6 +11,13 @@
   background-color: #0AA1DD !important;
 }
 
+nav ul li a {
+  color: white;
+
+}
+nav ul li:nth-child(3){
+  padding-right: 10rem;
+}
 nav {
   color: white;
   padding-right: 5rem;
