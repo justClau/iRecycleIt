@@ -1,0 +1,9 @@
+body {
+  margin: 5% auto;
+  max-width: fit-content;
+  background-color: #FDA162;
+}
+
+app-navbar {
+  padding-right: 20px;
+}

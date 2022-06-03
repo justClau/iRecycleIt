@@ -1,0 +1,14 @@
+.navbar-brand {
+  position: relative;
+  background: url(../../assets/images/logo-white.png);
+  height: 50px;
+  width: 200px;
+  left: 15px;
+  background-size: contain;
+}
+
+.bg-color-green {
+  background-color: #C7F36A !important;
+}
+
+
