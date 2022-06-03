@@ -3,12 +3,16 @@
   background: url(../../assets/images/logo-white.png);
   height: 50px;
   width: 200px;
-  left: 15px;
+  left: 5rem;
   background-size: contain;
 }
 
-.bg-color-green {
-  background-color: #C7F36A !important;
+.bg-color-blue {
+  background-color: #0AA1DD !important;
 }
 
+nav {
+  color: white;
+  padding-right: 5rem;
+}
 

@@ -7,13 +7,15 @@ import { LocationsComponent } from './locations/locations.component';
 import { AgmCoreModule } from '@agm/core';
 import { environment } from './../environments/environment';
 import { MatToolbarModule } from '@angular/material';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LocationsComponent,
-    NavbarComponent
+    NavbarComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
