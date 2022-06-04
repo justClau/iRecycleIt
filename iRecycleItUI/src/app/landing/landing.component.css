@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 .container-fluid {
   color: #E8F9FD;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
   font-size: 3rem;
+  max-width: 80%;
+  margin: 3% 9.3rem;
+  margin-top: 5%;
+}
+.text-shadow {
+  text-shadow: 4px 5px 4px #197785;
 }

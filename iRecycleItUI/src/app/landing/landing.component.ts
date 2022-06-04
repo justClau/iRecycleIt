@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  slogan: string = `NU LĂSA PE MÂINE CE POȚI RECICLA <em>ASTĂZI</em>`;
+  slogan: string = `NU LĂSA PE MÂINE CE POȚI RECICLA ASTĂZI`;
   basicInfo: string = "SOLUȚII  ȘI SERVICII DE RECICLARE";
   imgUrl: string = "";
 
