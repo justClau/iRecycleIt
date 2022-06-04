@@ -15,6 +15,12 @@ nav ul li a {
   color: white;
 
 }
+
+/* nav ul li a:hover {
+  background-color: #79DAE8;
+  color: #0AA1DD;
+} */
+
 nav ul li:nth-child(3){
   padding-right: 10rem;
 }

@@ -1,0 +1,42 @@
+<div class="register-form">
+  <h4>Incepe sa reciclezi acum!</h4>
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Prenumele tău</mat-label>
+      <input matInput placeholder="Claudiu" [formControl]="firstName" required>
+      <mat-error *ngIf="firstName.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Numele de Familie</mat-label>
+      <input matInput placeholder="Cirmaci" [formControl]="lastName" required>
+      <mat-error *ngIf="lastName.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Adresa de email</mat-label>
+      <input matInput placeholder="username@adresa.com" [formControl]="email" required>
+      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Nume de utilizator</mat-label>
+      <input matInput placeholder="pat@example.com" [formControl]="username" required>
+      <mat-error *ngIf="username.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Parola ta</mat-label>
+      <input matInput placeholder="AaBb1!@#" [formControl]="password" required>
+      <mat-error *ngIf="password.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Repetă parola</mat-label>
+      <input matInput placeholder="Repeta parola" [formControl]="confirmPassword" required>
+      <mat-error *ngIf="confirmPassword.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </p>
+  <button class="btn btn-primary btn-lg btn-block">Înregistrează-te Acum</button>
+</div>
