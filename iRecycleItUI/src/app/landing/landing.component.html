@@ -1,6 +1,13 @@
-<div class="container-fluid">
+<div class="container-fluid containers-fluid">
   <div class="row">
-    <div class="col-10 col-md-4 text-shadow">{{slogan}}</div>
-    <div class="col-10 col-md-6">{{basicInfo}}</div>
+    <div class="col-10 col-md-6 slogan-cell">
+      {{slogan}} <br />
+      <button class="register-btn" role="button">INREGISTREAZA-TE ACUM!</button>
+    </div>
+    <div class="col-10 col-md-6">
+      <!-- <landing-register></landing-register> -->
+      <img class="facts-img" [src]="imgUrl" alt="Plasting Usage Facts" />
+    </div>
   </div>
 </div>
+

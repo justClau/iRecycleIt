@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'iRecycleItUI'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('iRecycleItUI');
+    expect(app.pageTitle).toEqual('iRecycleItUI');
   });
 
   it('should render title', () => {

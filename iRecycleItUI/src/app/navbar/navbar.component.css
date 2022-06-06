@@ -3,23 +3,29 @@
   background: url(../../assets/images/logo-white.png);
   height: 50px;
   width: 200px;
-  left: 10rem;
+  left: 7.26rem;
   background-size: contain;
 }
 
+mat-icon {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .bg-color-blue {
-  background-color: #0AA1DD !important;
+  background-color: rgba(10, 161, 221, .6) !important;
+}
+
+nav ul {
+  margin-left: auto;
 }
 
 nav ul li a {
   color: white;
-
 }
 
-/* nav ul li a:hover {
-  background-color: #79DAE8;
-  color: #0AA1DD;
-} */
+nav ul li a:hover {
+  background-color: rgba(10, 161, 221, .99);
+}
 
 nav ul li:nth-child(3){
   padding-right: 10rem;
@@ -27,6 +33,14 @@ nav ul li:nth-child(3){
 nav {
   color: white;
   padding-right: 5rem;
-  box-shadow: 0 0.1px 15px #2155cd;
+  box-shadow: 0 1px 10px rgba(10, 161, 221, .99);
 }
 
+@media screen and (max-width: 990px) {
+  .navbar-brand {
+    left: 2%;
+  }
+  nav {
+    padding-right: 2%;
+  }
+}

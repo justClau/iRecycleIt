@@ -9,7 +9,7 @@ export class LandingComponent implements OnInit {
 
   slogan: string = `NU LĂSA PE MÂINE CE POȚI RECICLA ASTĂZI`;
   basicInfo: string = "SOLUȚII  ȘI SERVICII DE RECICLARE";
-  imgUrl: string = "";
+  imgUrl: string = "../../assets/images/facts.jpg";
 
   constructor() { }
 

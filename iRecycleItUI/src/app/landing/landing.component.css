@@ -1,13 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-.container-fluid {
+.containers-fluid {
   color: #E8F9FD;
   font-family: 'Abril Fatface', cursive;
-  text-align: center;
+  text-align: left;
   font-size: 3rem;
   max-width: 80%;
   margin: 3% 9.3rem;
   margin-top: 5%;
 }
-.text-shadow {
+.slogan-cell {
   text-shadow: 4px 5px 4px #197785;
+  padding-top: 10%;
+}
+
+.facts-img {
+  box-shadow: 4px 5px 4px #197785;
+  border-radius: 3%;
+  text-align: center;
+  max-height: 90%;
+  margin-left: 10%;
+}
+
+.register-btn {
+  background-color: rgb(61 178 218 / 80%);
+  background-image: url(https://transparenttextures.com/patterns/diagonales-decalees.png);
+  border-width: 0;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  padding: 2% 3%;
+  color: #e8f9fd;
+  box-shadow: 3px 4px 9px 0px #666666;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-shadow: 0px 1px 3px #666666;
+  outline:none;
+}
+
+.register-btn:hover {
+  box-shadow: 1px 1px 9px 0px #666666;
+}
+
+.register-btn:active {
+  box-shadow: none;
+  border-width: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .facts-img {
+    margin: 2%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .row {
+    justify-content: center;
+  }
+  .containers-fluid {
+    max-width: 90%;
+    margin: 2%;
+    margin-top: 5%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .register-btn {
+    font-size: 1rem;
+  }
 }

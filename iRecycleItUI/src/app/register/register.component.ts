@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormArray, FormControl, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-register',
+  selector: 'landing-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })

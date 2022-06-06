@@ -1,0 +1,14 @@
+.register-form {
+  max-width: 40%;
+  background-color: aliceblue;
+  font-size: 15px;
+  color:black;
+}
+
+mat-form-field {
+  margin-top: 5px;
+}
+
+.inline-input {
+  margin-left: 3px;
+}
